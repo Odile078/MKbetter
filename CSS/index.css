@@ -1,14 +1,24 @@
-.slides{
-  width: 500px;
+.slides {
+    width: 500px;
 }
-.slide img{
-  max-width: 100%;
+
+.slide img {
+    max-width: 100%;
 }
 
 [data-component="slideshow"] .slide {
-  display: none;
+    display: none;
 }
 
 [data-component="slideshow"] .slide.active {
-  display: block;
+    display: block;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
 }
