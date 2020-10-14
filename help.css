@@ -1,0 +1,50 @@
+#header{
+	font-size: 20px;
+	color: rgb(24, 23, 23);
+    padding:1px;
+    border-top-width:20px,20px,100px ;
+	box-sizing:border-box;
+	background:rgba(75, 74, 74, 0.4);
+	height:auto;
+	clear:both;
+    overflow:hidden;
+    margin: auto;
+}
+#logo{
+	display:inline;
+	margin: auto;
+	width: 100%;
+    padding-left: 20px;
+    margin-bottom: 5%;
+}
+#nav{
+	display: inline;
+	float: right;
+	width: 25%;
+    text-align: right;
+    margin-right: -1%;
+    inline-size: 400px;
+    margin-top: 2%;
+}
+#nav ul li{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+	width: 30%;
+    color: rgb(14, 14, 13);
+    margin-bottom: 5%;
+	
+}
+#nav ul li a{
+	color: rgb(8, 8, 8);
+}
+#nav ul{
+	margin: 0;
+	padding: 0;
+    color: beige;
+    }
+.par{
+    text-align: center;
+    margin-top: 5%;
+}
