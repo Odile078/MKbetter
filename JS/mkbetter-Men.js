@@ -29,7 +29,7 @@ var slideshows = document.querySelectorAll('[data-component="slideshow"]');
 // displaying and picking the questions
 
 function render(data){
-  var html = "<div class='comentBox'><div class='leftpanelImg'><img src='Images/userimg2.png'></div><div class='rightpanel surroundpanel'><div class='date'><span class='userinfo'>"+ data.name+"</span> "+ data.date+"</div><p>"+ data.body+"</p></div><div class='clear'></div></div><div class=' addopinion'></div>";
+  var html = "<div class='comentBox'><div class='leftpanelImg'><img src='Images/userimg2.png'></div><div class='rightpanel surroundpanel'><div class='date'><span class='userinfo'> <a href='mkbetter-E-answer.html'>"+ data.name+"</a></span> "+ data.date+"</div><p>"+ data.body+"</p></div><div class='clear'></div></div><div class=' addopinion'></div>";
   
   $('#container').append(html);
 }
