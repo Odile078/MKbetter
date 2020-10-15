@@ -115,8 +115,9 @@ body, html {
       text-align: center;
   }
   h4{color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    flex-shrink: inherit;
 }
 p1{color: black;
 text-align: center;
