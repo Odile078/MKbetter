@@ -138,6 +138,23 @@ header .overlay {
     padding: 0 0 10px 0;
 }
 
+
+/***** Section 2 *****/
+
+.section-2-box {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.section-2-box h3 {
+    margin-top: 0;
+}
+
+.section-2-box-text .medium-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 @media (pointer: coarse) and (hover: none) {
     header {
         background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
