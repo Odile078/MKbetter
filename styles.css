@@ -1,0 +1,88 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url("bk.jpg");
+}
+a {
+	text-decoration: none;
+	color: whitesmoke;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header{
+	font-size: 20px;
+	color: whitesmoke;
+	padding:1px;
+	box-sizing:border-box;
+	background:rgba(0, 0, 0, 0.4);
+	height:auto;
+	clear:both;
+	overflow:hidden;
+}
+#logo{
+	display:inline;
+	margin-bottom: 20%;
+	margin-top:-2%;
+	width: 100%;
+	padding-left: 20px;
+}
+#nav{
+	display: inline;
+	float: right;
+	width: 25%;
+	text-align: right;
+	margin-right:-1%;
+}
+#nav ul li{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+	width: 30%;
+	color: rgb(241, 241, 235);
+	margin-bottom: 5%;
+}
+#nav ul li a{
+	color: white;
+}
+#nav ul{
+	margin: 0;
+	padding: 0;
+	color: beige;
+}
+form{
+	background-color: rgba(0,0,0,0.7);
+	width: 35%;
+	color: #FFFFFF;
+	margin: 20px auto;
+	padding: 30px 80px;
+
+}
+#head{
+	font-size: 30px;
+	text-align: center;
+	padding: 5px;
+	border-bottom: solid 1px;
+}
+.input{
+	background: none;
+	width: 100%;
+	padding: 5px;
+	margin: 3px 0;
+	border: solid gray 1px;
+}
+#forget{
+	color: rgb(211, 149, 229);
+	margin-left: 50%;
+	margin-right: 5%;
+}
+.submit{
+	background-color: rgb(211, 149, 229);
+	font-weight: bold;
+	border-radius: 10px;
+	border: none;
+	padding: 10px;
+    width: 40%;
+   margin-left: 30%;
+   margin-right: 20%;
+   margin-top: 5%;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="CSS/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/mkbetter2.css">
+    
+</head>
+<body>
+    <header class="menu">
+        <div class="container " >
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-7">
+                    <nav>
+                        <a href="mkbetter-Diet&fitness.html" class="btn btn-secondary">Diet & Fitness</a>
+                        <a href="mkbetter-Women.html" class="btn btn-secondary">Women Health</a>
+                        <a href="mkbetter-Men.html" class="btn btn-secondary"> Men Health</a>
+
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-8 ">
+                    <!--A slider div with pizza pictures, when hover brings a paragraph inside saying order-->
+                    <div id="slideshow-example" data-component="slideshow" class="slides">
+                        <div role="list">
+                          <div class="slide">
+                            <img src="Images/img1.png" alt="">
+                          </div>
+                          <div class="slide">
+                            <img src="Images/img2.png" alt="">
+                          </div>
+                          <div class="slide">
+                            <img src="Images/img3.png" alt="">
+                          </div>
+                          <div class="slide">
+                            <img src="Images/img4.png" alt="">
+                          </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3"></div>
+
+            </div>
+        </div>
+    </section>
+    <section class="welcome">
+        <div class="container">
+            <div class="row ">
+                    <div class="col-md-3">
+                        <h3 class="actiontitle">Diet & Fietness</h3>
+                    </div>
+                    <div class="col-md-6 jumbotron">
+                        <h1> Get answers  to your questions </h1>
+                        <p>It's more than once that you have these questions regarding your health and ways to support your health journey. You don't have to be sick to finally get the chance to ask the doctor at the hospistal.</p>
+                        <p>Ask your question, get answers and help others learn from your questions.</p>
+                        <button class="btn btn-secondary buthover"><a href="#ask ">Ask question</a>  </button>
+                    </div>
+                    <div class="col-md-3"></div>
+
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+                <h3 class="actiontitle">Asked questions</h3>
+        </div>
+        <div class="container" id="container">
+            <div class='comentBox'>
+                <div class='leftpanelImg'>
+                    <img src='Images/userimg2.png'>
+                </div>
+                
+                <div class='rightpanel surroundpanel '>
+                    
+                    <div class='date'>
+                        <span class='userinfo'><a href="mkbetter-D-answer1.html"> "Emily"</a> </span>
+                        "10 August,2020"
+                    </div>
+                    <p>I want to start a plan, but my only problem is lack of information about workout and diet. Many people say that doing workout without proper guidance can result in negative affects, and same as diet. I'm confused about it.</p>
+                </div>  
+                              
+                <div class='clear'>
+                </div>             
+            </div>
+
+        </div>
+        
+    </section>
+    
+    <section>
+        <div class="container">
+            <h3 class="actiontitle">Ask your question</h3>
+        </div>
+        <div class="container" id="ask" >  
+            <div class="row">
+                <div class="col-md-6 qstcontainer">
+                    <form action="" class="form">
+                        <p>Ask your question</p>
+                        <label for="">Name</label>
+                        <input type="text " id="name" class="form-control"><br>
+                        <label for="">Date</label>
+                        <input type="date" id="date" class="form-control"><br>
+                        <label for="">Question</label>
+                        <textarea  id="bodyText" cols="38" rows="5" class="form-control"></textarea>
+                        <input type="button" id="addComent" value="Ask" class="btn btn-danger" />
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="col-md-10">
+            <p>Copyright</p>
+        </div>
+    </footer>
+
+    
+    <script src="JS/jquery-3.5.1.min.js"></script>
+    <Script src="JS/mkbetter2.js"></Script>
+</body>
+</html>
